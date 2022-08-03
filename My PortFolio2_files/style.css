@@ -1,0 +1,155 @@
+
+
+
+body{
+    background-image: url("C:/Users/Raghav Khurana/OneDrive/Desktop/myportfolio/images/background1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    
+   
+
+}
+
+
+
+#heading1{
+        text-align: right;
+        padding-top: 9em;
+        padding-right: 6em;
+        
+        text-align: right; 
+    
+        
+    }
+.container{
+    background-color: #f8f3ef;
+    color:black ;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    width:86%;
+    margin-right: 2%;
+    margin-left: 7%;
+    
+  
+} 
+.sidenav{
+height: 100%;
+width: 4%;
+position: fixed;
+
+top: 0;
+left: 0;
+background-color: #111;
+ overflow-x: hidden; 
+padding-top: 20px;
+border-right: 1px solid;
+border-color: rgb(63, 62, 62);
+}
+
+.sidenav a {
+padding-bottom: 0.8em;
+font-size: 2.6em;
+color: #bbb9b9;
+display: block;
+text-align: center;
+z-index: 1;
+}
+
+
+
+.sidenav a:hover{
+    
+    color:white;
+}
+
+
+
+#contact{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+input{
+    border-radius: 8px;
+    margin-left: 2%;
+    width: 16em;
+    
+}
+
+textarea{
+    border:2px solid rgb(83, 80, 80);
+     border-radius: 10px;
+     margin-left: 2%;
+     min-width:30%;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.heading2{
+    color:blue;
+}
+
+button{
+    font-size: 2em;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    margin-left:50%;
+}
+
+button:hover{
+    background-color: rgb(60, 185, 60);
+}
+
+button:active{
+    background-color: grey;
+}
+
+#lowernav{
+    
+    display:none;
+}
+
+#aboutme img{
+    float: right;
+    width: 80%;
+    border-radius: 200px; 
+    margin-top:-7.8em;
+}
+
+
+@media only screen and (max-width:800px){
+
+    .sidenav{
+        display:none;
+    }
+
+    .container{
+        margin-left: 2%;
+        margin-right:2.8em;
+    }
+
+    #lowernav{
+        text-align:center;
+        display:flex;
+        justify-content: space-evenly;
+        color:white;
+        
+    }
+    #lowernav a{
+        color:#bbb9b9;
+        font-size: 2em;
+       
+
+    }
+    #lowernav a:hover{
+        color: white;
+    }
+
+   
+    
+    
+}
